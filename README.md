@@ -6,3 +6,6 @@ Still Learning Git with GitHub
 #### I love working with Git! ❤
 
 #### Git is truly amazing! 😀
+
+
+### Loving it so far! 😍
