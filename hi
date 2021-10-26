@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="som">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TailwindCSS Components</title>
+
+	<link rel="stylesheet" href="tailwind.min.css">
+</head>
+<body class="bg-gray-300">
+	<div class="container mx-auto">
+		<div class="bg-red-400 rounded h-52 md:h-16 flex-row flex flex-col md:flex-row justify-between items-center p-5">
+			<h4 class="text-green-600 text-2xl tracking-wide cursor-pointer font-semibold">CompanyX</h4>
+
+			<nav class="md:block flex space-x-2 justify-center items-center">
+				<a href="#!" class="py-5 px-3 transition hover:text-green-500 hover:bg-gray-200">Home</a>
+				<a href="#!" class="py-5 px-3 transition hover:text-green-500 hover:bg-gray-200">About</a>
+				<a href="#!" class="py-5 px-3 transition hover:text-green-500 hover:bg-gray-200">Contact</a>
+			</nav>
+
+			<button type="button" class="bg-red-500 text-white py-3 px-5 rounded shadow-lg transition hover:shadow-2xl">
+				Login
+			</button>
+			
+		</div>
+	</div>
+	
+	<div class="my-6"></div>
+
+	<div class="bg-white max-w-md md:max-w-2xl rounded-xl mx-auto shadow-lg hover:shadow-2xl overflow-hidden transition">
+		<div class="md:flex">
+			<div>
+				<img src="01.jpg" alt="No image!" class="w-full h-full">
+			</div>
+			
+			<div class="p-8">
+				<h4 class="text-sm font-semibold uppercase text-blue-700">Things</h4>
+	
+				<a href="#!" class="mt-1 block text-2xl capitalize hover:underline">Some things</a>
+	
+				<p class="mt-2 text-gray-600">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo harum! Molestiae sit laborum voluptatum expedita alias atque dolorem aperiam nemo molestias eius commodi possimus quaerat est, natus voluptate dolorum.
+				</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
